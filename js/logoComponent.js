@@ -1,5 +1,5 @@
 Vue.component('logo', {
-    template: `<header class="header">
+    template: `<div><header class="header">
         <div class="container header__container">
             <div class="header__left">
                 <a href="index.html" class="logo"><img class="logo__img" src="img/logo.png" alt="logo">BRAN<span class="logo__d">D</span></a>
@@ -77,6 +77,7 @@ Vue.component('logo', {
                 <div>
                 <a class="button" href="#">My Account</a> </div>
         </div>
-        </div>
-    </header>`
+        </div> 
+    </header>
+</div>`
 });
